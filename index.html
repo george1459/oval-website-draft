@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Lab Website</h1>
+    </header>
+    
+    <section id="online-demos">
+        <h2>Online Demos (these should be centered)</h2>
+        <div class="demo-container">
+            <div class="demo">
+                <a href="https://wikichat.genie.stanford.edu/" target="_blank">
+                    <img src="Wikipedia-logo-v2-en.svg" alt="Wikipedia">
+                    <p>WikiChat</p>
+                </a>
+            </div>
+            <div class="demo">
+                <a href="https://yelpbot.genie.stanford.edu/" target="_blank">
+                    <img src="ramen.png" alt="Ramen">
+                    <p>RestaurantGenie</p>
+                </a>
+            </div>
+            <div class="demo">
+                <a href="https://noora.stanford.edu/" target="_blank">
+                    <img src="aladin.png" alt="3rd Application">
+                    <p>Noora</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="github">
+        <h2>GitHub</h2>
+        <ul>
+            <li>WikiChat(https://github.com/stanford-oval/WikiChat) - <span>WikiChat stops the hallucination of large language models by retrieving data from Wikipedia.</span></li>
+            <li>SUQL(https://github.com/stanford-oval/suql) - <span>SUQL: Conversational Search over Structured and Unstructured Data with LLMs</span></li>
+            <li>WikiSP(https://github.com/stanford-oval/wikidata-emnlp23) - <span>WikiSP, a semantic parser for Wikidata. WikiWebQuestions, a SPARQL-annotated dataset on Wikidata</span></li>
+            <li>X-RisaWoz(https://github.com/stanford-oval/dialogues) - <span>A large-scale end-to-end multilingual dialogue dataset available in Chinese, English, French, Hindi, Korean, and code-mixed English-Hindi.</span></li>
+        </ul>
+    </section>
+    
+    <section id="publications">
+        <h2>Recent Publications</h2>
+        <div class="publication">
+            <h3>Fine-tuned LLMs Know More, Hallucinate Less with Few-Shot Sequence-to-Sequence Semantic Parsing over Wikidata</h3>
+            <p>Silei Xu*, Shicheng Liu*, Theo Culhane, Elizaveta Pertseva, Meng-Hsi Wu, Sina J. Semnani, Monica S. Lam.
+                In Proceedings of Association for Computational Linguistics: EMNLP 2023, Resorts World Convention Centre, Singapore, December 6-10, 2023.
+                
+                We improve the factuality of LLMs by grounding it with Wikidata, the world's largest live knowledge base. We fine-tuned a semantic parser, WikiSP, that can translate natural language questions into Wikidata queries.
+                We have created the WikiWebQuestions question-answering benchmark by adapting the popular WebQuestions benchmark from Freebase to Wikidata.
+                
+                WikiSP achieves 69% and 59% answer accuracy in the dev set and test set, respectively. On the dev set, GPT-3 can only answer 66% of the questions completely. We recommend that we use WikiSP to provide verifiable answers to questions if possible, and use GPT-3 to provide qualified answers otherwise. This combination provides useful answers to 97% of the questions</p>
+        </div>
+        <div class="publication">
+            <h3>WikiChat: Stopping the Hallucination of Large Language Model Chatbots by Few-Shot Grounding on Wikipedia</h3>
+            <p>Sina J. Semnani, Violet Z. Yao*, Heidi C. Zhang*, Monica S. Lam. In Findings of the Association for Computational Linguistics: EMNLP 2023, Resorts World Convention Centre, Singapore, December 6-10, 2023. We designed a 7-stage pipeline of subtasks implemented with few-shot prompting current LLMs. Wikichat curates information by both retrieving and summarizing paragraphs from Wikipedia and generating from an LLM followed by fact-checking. Finally, it combines the information in a draft and refine it.
+
+                One experiment shows that Wikichat significantly outperforms the LLM it is based on in terms of factuality, by 24.4% on average, and by up to 32.7% on tail topics, while matching its conversationality.</p>
+        </div>
+        <!-- Add more publications as needed -->
+    </section>
+
+    <section id="research-visions">
+        <h2>Research Vision</h2>
+        Computers will transform into effective, personalized, conversational assistants for everybody, including the pre-literate and the non-literate. Commercial chatbots today are notoriously brittle as they are hardcoded to handle a few possible choices of user inputs. Recently introduced large language models (LLMs), such as GPT-3, are remarkably fluent, but they are often erroneous and prone to hallucinations. Our goal is not just to create chit-chit bots, but assistants with a purpose. We focus on studying the science in conversational agents and specifically how to:
+
+        tame LLMs into robust, trustworthy, and effective conversational agents;
+        ensure that LLMs conform to human values;
+        create socially intelligent agents that can e.g. provide companionship to the elderly and emotional support to improve mental health;
+        make the technology easily used and deployed by non-AI experts.
+    </section>
+    
+    <section id="team">
+        <h2>Team</h2>
+        <div class="member-group">
+            <h3>Senior Members</h3>
+            <div class="member">
+                <a href="https://suif.stanford.edu/~lam/" target="_blank">
+                    <img src="monica-joel.jpg" alt="Prof. Monica S. Lam">
+                    <p>Prof. Monica S. Lam</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="link-to-member-1-profile" target="_blank">
+                    <img src="images.png" alt="A senior member">
+                    <p>Senior Member</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="link-to-member-1-profile" target="_blank">
+                    <img src="images.png" alt="A senior member">
+                    <p>Senior Member</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="link-to-member-1-profile" target="_blank">
+                    <img src="images.png" alt="A senior member">
+                    <p>Senior Member</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="link-to-member-1-profile" target="_blank">
+                    <img src="images.png" alt="A senior member">
+                    <p>Senior Member</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="link-to-member-1-profile" target="_blank">
+                    <img src="images.png" alt="A senior member">
+                    <p>Senior Member</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="link-to-member-1-profile" target="_blank">
+                    <img src="images.png" alt="A senior member">
+                    <p>Senior Member</p>
+                </a>
+            </div>
+        </div>
+        <div class="member-group">
+            <h3>PhD students</h3>
+            <div class="member">
+                <a href="" target="_blank">
+                    <img src="images.png" alt="Sina Semnani">
+                    <p>Sina Semnani</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="https://george1459.github.io/" target="_blank">
+                    <img src="Shicheng.png" alt="Shicheng Liu">
+                    <p>Shicheng Liu</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="" target="_blank">
+                    <img src="images.png" alt="Harshit Joshi">
+                    <p>Harshit Joshi</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="" target="_blank">
+                    <img src="images.png" alt="Yijia Shao">
+                    <p>Yijia Shao</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="" target="_blank">
+                    <img src="images.png" alt="Elizaveta Pertseva">
+                    <p>Elizaveta Pertseva</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="" target="_blank">
+                    <img src="images.png" alt="Jackie Yang">
+                    <p>Jackie Yang</p>
+                </a>
+            </div>
+        </div>
+        <div class="member-group">
+            <h3>Master & Undergraduate Students</h3>
+            <div class="member">
+                <a href="" target="_blank">
+                    <img src="images.png" alt="Master & Undergraduate Students">
+                    <p>Student</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="" target="_blank">
+                    <img src="images.png" alt="Master & Undergraduate Students">
+                    <p>Student</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="" target="_blank">
+                    <img src="images.png" alt="Master & Undergraduate Students">
+                    <p>Student</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="" target="_blank">
+                    <img src="images.png" alt="Master & Undergraduate Students">
+                    <p>Student</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="" target="_blank">
+                    <img src="images.png" alt="Master & Undergraduate Students">
+                    <p>Student</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="" target="_blank">
+                    <img src="images.png" alt="Master & Undergraduate Students">
+                    <p>Student</p>
+                </a>
+            </div>
+        </div>
+        <div class="member-group">
+            <h3>Alumni</h3>
+            <div class="member">
+                <a href="" target="_blank">
+                    <img src="images.png" alt="Alumni">
+                    <p>Alumni</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="" target="_blank">
+                    <img src="images.png" alt="Alumni">
+                    <p>Alumni</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="" target="_blank">
+                    <img src="images.png" alt="Alumni">
+                    <p>Alumni</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="" target="_blank">
+                    <img src="images.png" alt="Alumni">
+                    <p>Alumni</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="" target="_blank">
+                    <img src="images.png" alt="Alumni">
+                    <p>Alumni</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="" target="_blank">
+                    <img src="images.png" alt="Alumni">
+                    <p>Alumni</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>© 2024 Stanford University</p>
+    </footer>
+</body>
+</html>
